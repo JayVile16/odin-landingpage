@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/************** First Division *************************/
+.one {
+    display: flex;
+    gap: 12px;
+}
+
+.headers {
+    display: flex;
+    justify-content: flex-end;
+}
+.logo,
+.header {
+    flex: 1;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 16px;
+}
+
+.header {
+    justify-content: flex-end;
+    margin: 0;
+    padding: 8px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/************** Second Division *************************/
+
+
+/************** Third Division *************************/
+
+
+/************** Four Division *************************/
+
+
+/************** Five Division *************************/
