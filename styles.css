@@ -34,8 +34,19 @@
 }
 
 /************** Second Division *************************/
-.two {
+.two, .left-two {
     display: flex;
+}
+
+.left-two {
+    flex-direction: column;
+    padding: 16px;
+    width: 400px;
+}
+
+button {
+    width: 100px;
+    flex: auto;
 }
 
 /************** Third Division *************************/
