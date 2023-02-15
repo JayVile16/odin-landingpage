@@ -50,7 +50,18 @@ button {
 }
 
 /************** Third Division *************************/
+.three {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.three-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
 
 /************** Four Division *************************/
 
