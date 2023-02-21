@@ -64,6 +64,18 @@ button {
 }
 
 /************** Four Division *************************/
+.four {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    width: auto;
+    flex: 1;
+    margin-top: 50px;
+    text-align: center;
+}
 
+.speaker {
+    text-align: end;
+}
 
 /************** Five Division *************************/
