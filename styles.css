@@ -44,9 +44,9 @@
     width: 400px;
 }
 
-button {
+.button {
     width: 100px;
-    flex: auto;
+    flex: 1;
 }
 
 /************** Third Division *************************/
@@ -63,7 +63,7 @@ button {
     
 }
 
-/************** Four Division *************************/
+/************** Fourth Division *************************/
 .four {
     display: flex;
     flex-direction: column;
@@ -78,4 +78,28 @@ button {
     text-align: end;
 }
 
-/************** Five Division *************************/
+/************** Fifth Division *************************/
+
+.five {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 500px;
+    align-self: center;
+    margin: 40px 70px;
+
+}
+
+.five-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;
+}
+
+#bottom {
+    width: 100px;
+    flex: 1;
+}
